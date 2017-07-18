@@ -57,8 +57,6 @@
      <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
-     <None Include="Assets\Editor\GitHub\CREDITS.txt" />
-     <None Include="Assets\Editor\GitHub\EULA.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

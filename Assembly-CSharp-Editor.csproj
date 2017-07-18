@@ -47,8 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-     <None Include="Assets\Editor\GitHub\CREDITS.txt" />
-     <None Include="Assets\Editor\GitHub\EULA.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
@@ -111,42 +109,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Octokit">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/Octokit.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Logging">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/GitHub.Logging.dll</HintPath>
- </Reference>
- <Reference Include="Rackspace.Threading">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/Rackspace.Threading.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Security">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/Mono.Security.dll</HintPath>
- </Reference>
- <Reference Include="ReadOnlyCollectionsInterfaces">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/ReadOnlyCollectionsInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/GitHub.Unity.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Api">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/GitHub.Api.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/System.Net.Http.dll</HintPath>
- </Reference>
- <Reference Include="AsyncBridge.Net35">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/AsyncBridge.Net35.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="sfw.net">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Assets/Editor/GitHub/sfw.net.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
