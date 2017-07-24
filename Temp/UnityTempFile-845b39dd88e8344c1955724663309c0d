@@ -75,7 +75,7 @@
 -define:UNITY_EDITOR_OSX
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
-'Assets/PlayerController.cs'
+'Assets/Scripts/PlayerController.cs'
 'Assets/TutorialInfo/Scripts/Readme.cs'
 'Assets/_Complete-Game/Scripts/Done_BGScroller.cs'
 'Assets/_Complete-Game/Scripts/Done_DestroyByBoundary.cs'

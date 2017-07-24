@@ -364,8 +364,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Textures
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -401,10 +400,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 260}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ec24000086250000b4250000f42500004c2600004e260000
+    m_ExpandedIDs: ec240000862500004c26000062270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -420,7 +419,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -594,7 +593,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.45745823, y: -0.24518436, z: 0.13283765, w: 0.84438527}
     speed: 2
-    m_Value: {x: 0.45745462, y: -0.24518244, z: 0.13283661, w: 0.84437865}
+    m_Value: {x: -0.45745823, y: 0.24518435, z: -0.13283765, w: -0.8443852}
   m_Size:
     m_Target: 9.775608
     speed: 2
@@ -637,8 +636,8 @@ MonoBehaviour:
     height: 461
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84250000
-    m_LastClickedID: 0
+    m_SelectedIDs: de260000
+    m_LastClickedID: 9950
     m_ExpandedIDs: dcfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
