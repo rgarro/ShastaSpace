@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	public float speed;
-	public float xMin,xMax,zMin,zMax;
+	public Boundary boundary;
+	public float tilt;
 
 	void FixedUpdate () {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
@@ -14,9 +15,10 @@ public class PlayerController : MonoBehaviour {
 		Rigidbody rigidbody = GetComponent<Rigidbody>();
 		rigidbody.velocity = movement * speed;
 		rigidbody.position = new Vector3 (
-			Mathf.Clamp(rigidbody.position.x,xMin,xMax),
+			Mathf.Clamp(rigidbody.position.x,boundary.xMin,boundary.xMax),
 			0.0f,
-			Mathf.Clamp(rigidbody.position.z,zMin,zMax)
+			Mathf.Clamp(rigidbody.position.z,boundary.zMin,boundary.zMax)
 		);
+		rigidbody.rotation = Quaternion.Euler (0.0f,0.0f,rigidbody.velocity.x * tilt);
 	}
 }
