@@ -7,9 +7,11 @@ public class Mover : MonoBehaviour {
 
 	public float speed;
 
-	void Start () {
-		Rigidbody rigidbody = GetComponent<Rigidbody>();
-		rigidbody.velocity = transform.forward * speed;
+	void Start ()
+	{
+		//transform.Rotate(90, 0, 0);
+		GetComponent<Rigidbody>().velocity = transform.forward * speed;
+
 	}
 
 }
