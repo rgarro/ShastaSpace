@@ -39,6 +39,8 @@ public class GameController : MonoBehaviour {
 	}
 
 	void UpdateScore(){
-		scoreText.text = "Score: " + score.ToString ();
+		//scoreText.text = "Score: " + score.ToString ();
+		scoreText.text = "Score: " + score;
 	}
+
 }
