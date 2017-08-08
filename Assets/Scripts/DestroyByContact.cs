@@ -10,12 +10,6 @@ public class DestroyByContact : MonoBehaviour {
 	private GameController gameController;
 
 	void Start(){
-		//GameObject gameControllerO = GameObject.FindWithTag ("GameController"); 
-		//Debug.Log ("gameC");
-		//if(gameControllerO != null){
-		//	gameController = gameControllerO.GetComponent<GameController> ();
-		//}
-
 		GameObject gameControllerObject = GameObject.FindGameObjectWithTag ("GameController");
 		if (gameControllerObject != null)
 		{
@@ -34,6 +28,7 @@ public class DestroyByContact : MonoBehaviour {
 		Instantiate(explosion, transform.position, transform.rotation);
 		if(other.tag == "Player"){
 			Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+			gameController.GameOver();
 		}
 
 		gameController.AddScore (scoreValue);
