@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "ShastaSpace.data.unityweb",
+"asmCodeUrl": "ShastaSpace.asm.code.unityweb",
+"asmMemoryUrl": "ShastaSpace.asm.memory.unityweb",
+"asmFrameworkUrl": "ShastaSpace.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
