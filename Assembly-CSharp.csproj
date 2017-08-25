@@ -3,9 +3,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
     <ProjectGuid>{866BFCCD-1D6A-ABA7-8BEB-2F2D849FC248}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -34,63 +33,64 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Managed\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Boundary.cs" />
-     <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
-     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
-     <Compile Include="Assets\Scripts\DestroyByTime.cs" />
-     <Compile Include="Assets\Scripts\GameController.cs" />
-     <Compile Include="Assets\Scripts\Mover.cs" />
-     <Compile Include="Assets\Scripts\MoverB.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\RandomRotator.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_GameController.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_Mover.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_PlayerController.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_RandomRotator.cs" />
-     <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_WeaponController.cs" />
-     <Compile Include="Assets\heliEngine.cs" />
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/rolando/Documents/Unity/ShastaSpace/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="nunit.framework">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HoloLens">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VR">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Scripts\Boundary.cs" />
+    <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
+    <Compile Include="Assets\Scripts\DestroyByContact.cs" />
+    <Compile Include="Assets\Scripts\DestroyByTime.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Scripts\MoverB.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\Scripts\tailRotator.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_BGScroller.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_GameController.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_Mover.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_PlayerController.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_RandomRotator.cs" />
+    <Compile Include="Assets\_Scenes\_Complete-Game\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\heliEngine.cs" />
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -100,5 +100,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
