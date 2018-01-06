@@ -1,9 +1,7 @@
 ShastaSpace
 =======
 
-Chengdu J7 GPS Huawei Accelerometer
-Mt Shasta Master Kim chanting sutras
-St John state line nahuatl sacrifice ...
+PER ANGUSTA AD AUGUSTA, Beaver ForestGroove ...
 
 Download for PC,Linux,Mac  https://github.com/rgarro/ShastaSpace/tree/master/Builds/ShastaSpace0.1.app
 
