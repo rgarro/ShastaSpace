@@ -3,6 +3,8 @@ ShastaSpace
 
 PER ANGUSTA AD AUGUSTA, Beaver ForestGroove ...
 
+Play Online  https://emptyart.github.io/ShastaSpace/
+
 Download for PC,Linux,Mac  https://github.com/rgarro/ShastaSpace/tree/master/Builds/ShastaSpace0.1.app
 
 Dorje Trolo background loop ...  [https://soundcloud.com/dorje-trolo/riyonnakamoto](https://soundcloud.com/dorje-trolo/riyonnakamoto).
