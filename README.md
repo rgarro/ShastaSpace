@@ -1,7 +1,18 @@
 ShastaSpace
 =======
 
-PER ANGUSTA AD AUGUSTA, Beaver ForestGroove ...
+http://www.zubre.com/
+
+ZUBRE Looks like a Mountain Lighthing,Mountain Dew.
+$3/Aluminium kilo.
+
+*U2 Heineken Red Star*
+DrPepper,Pepsi,ShastaCola,Bohemia,Pilsen
+Fresca,7UP,Fanta,OrangeCrush,Heineken
+*Queen Astarte rides a Mug Root Beer* ..
+Co2 Holds Thermostatic progession in the cooler.
+
+*My Mig17 is A Yellow Recycle Aluminium dump* 
 
 Play Online  https://emptyart.github.io/ShastaSpace/
 

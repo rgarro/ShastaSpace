@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShastaSpace", "Assembly-CSharp.csproj", "{866BFCCD-1D6A-ABA7-8BEB-2F2D849FC248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{866BFCCD-1D6A-ABA7-8BEB-2F2D849FC248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShastaSpace", "Assembly-CSharp-Editor.csproj", "{26A52A0D-FE5E-ED3B-CF9A-94B8F6B005D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{26A52A0D-FE5E-ED3B-CF9A-94B8F6B005D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
