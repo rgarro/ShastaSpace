@@ -15,4 +15,6 @@ Download for PC,Linux,Mac  https://github.com/rgarro/ShastaSpace/tree/master/Bui
 
 Dorje Trolo background loop ...  [https://soundcloud.com/dorje-trolo/riyonnakamoto](https://soundcloud.com/dorje-trolo/riyonnakamoto).
 
+Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
+
 [![que no se resistieran, por que sino los mataban ... ](https://raw.githubusercontent.com/rgarro/ShastaSpace/master/shastashot.png)]
